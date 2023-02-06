@@ -2,6 +2,7 @@
     package="com.example.my_web_browser">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
+        android:usesCleartextTraffic="true"
         android:label="my_web_browser"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
